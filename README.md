@@ -1,1 +1,30 @@
-# Shapefile contendo os mapa das regionais de saúde do SUS
+# Shapefile contendo o mapa das Regionais de Saúde do SUS
+
+O território brasileiro possui representações cartográficas em vários níveis: regiões, estados, municípios, etc. Sendo o município a unidade territorial mínima. Para facilitar a administração do Sistema Único de Saúde (SUS), o Ministério da Saúde instituiu a divisão do território brasileiro em Regionais de Saúde. As Regionais de Saúde são espaços geográficos constituídos por agrupamentos de municípios, que visam facilitar o planejamento, a execução e a disseminação dos serviços de saúde entre os municípios. Ao todo, os 5570 municípios brasileiros são divididos em 450 Regionais de Saúde.
+
+Neste repositório, disponibilizo um arquivo CSV contento a distribuição territorial brasileira e dois shapefiles contendo o mapeamento das Regionais de Saúde. Os arquivos são baseados em dados do IBGE e do SUS.
+
+
+#Conteúdo do repositório
+
+Arquivo DTB.csv: Contém a distribuição territorial brasileira (2019), mostrando o relacionamento entre Regiões, Estados, Regionais de Saúde, e Municípios. Os dados foram extraídos do IBGE [1] e do DATASUS [2].
+
+Arquivo br_regionais.zip: Contém o shapefile das Regionais de Saúde geradas a partir do shapefile de Municípios (2019) disponibilizado pelo IBGE [3]. Os polígonos deste shapefile representam fielmente os contornos dos municípios descritos na malha 2019 do IBGE. Este arquivo é demasiado grande em quantidade de MegaBytes, aproximadamente 75 MB.
+ 
+Arquivo br_regionais_simplificado.zip: É uma simplificação da malha anterior usando um algoritmo de simplificação de polígonos [4]. Isto introduz alguns "gaps" entre os polígonos e pode ser observado aumentando-se o zoom nas fronteiras dos polígonos. Entretanto, este arquivo possui apenas 2 MB e é ideal para a produção de mapas e dashboards, devido seu tamanho reduzido.
+
+BR_Regionais_Simplificado.geojson: Arquivo JSON do shapefile simplificado. Este arquivo possui 3 MB.
+
+
+#Como os shapefiles foram gerados
+
+Os shapefiles foram gerados a partir do shapefile de municípios do IBGE usando a API PyQGIS [5] disponível no Software QGIS.
+
+
+#Referências
+
+[1] https://www.ibge.gov.br/geociencias/organizacao-do-territorio/divisao-regional/23701-divisao-territorial-brasileira.html?=&t=downloads
+[2] http://www2.datasus.gov.br/DATASUS/index.php?area=060206
+[3] https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/15774-malhas.html?=&t=downloads
+[4] https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm
+[5] https://qgis.org/pyqgis/

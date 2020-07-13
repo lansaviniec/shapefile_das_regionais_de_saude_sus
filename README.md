@@ -42,3 +42,8 @@ Os shapefiles foram gerados a partir do shapefile de municípios do IBGE usando 
 Dr. Landir Saviniec (UFPR - Campus de Jandaia do Sul)
 
 Dra. Alexsandra Bezerra da Rocha (UFCG - Campus Cajazeiras)
+
+### Como citar esses dados:
+
+SAVINIEC, Landir; ROCHA, Alexsandra Bezerra da. Shape das Regiões de Saúde do Brasil. 13 de jul. de 2020. Disponível em: <https://github.com/lansaviniec/shapefile_das_regionais_de_saude_sus>
+

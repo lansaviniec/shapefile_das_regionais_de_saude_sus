@@ -24,8 +24,13 @@ Os shapefiles foram gerados a partir do shapefile de municípios do IBGE usando 
 # Referências
 
 [1] https://www.ibge.gov.br/geociencias/organizacao-do-territorio/divisao-regional/23701-divisao-territorial-brasileira.html?=&t=downloads
+
 [2] http://www2.datasus.gov.br/DATASUS/index.php?area=060206
+
 [3] https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/15774-malhas.html?=&t=downloads
+
 [4] https://drive.google.com/file/d/1loReIPMSJHz9EdQgB78qoI7HVZQIhJjP/view?usp=sharing
+
 [5] https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm
+
 [6] https://qgis.org/pyqgis/

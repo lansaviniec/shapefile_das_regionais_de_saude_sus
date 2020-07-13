@@ -5,7 +5,7 @@ O território brasileiro possui representações cartográficas em vários níve
 Neste repositório, disponibilizo um arquivo CSV contento a distribuição territorial brasileira e dois shapefiles contendo o mapeamento das Regionais de Saúde. Os arquivos são baseados em dados do IBGE e do SUS.
 
 
-#Conteúdo do repositório
+# Conteúdo do repositório
 
 Arquivo DTB.csv: Contém a distribuição territorial brasileira (2019), mostrando o relacionamento entre Regiões, Estados, Regionais de Saúde, e Municípios. Os dados foram extraídos do IBGE [1] e do DATASUS [2].
 
@@ -16,12 +16,12 @@ Arquivo br_regionais_simplificado.zip: É uma simplificação da malha anterior 
 BR_Regionais_Simplificado.geojson: Arquivo JSON do shapefile simplificado. Este arquivo possui 3 MB.
 
 
-#Como os shapefiles foram gerados
+# Como os shapefiles foram gerados
 
 Os shapefiles foram gerados a partir do shapefile de municípios do IBGE usando a API PyQGIS [5] disponível no Software QGIS.
 
 
-#Referências
+# Referências
 
 [1] https://www.ibge.gov.br/geociencias/organizacao-do-territorio/divisao-regional/23701-divisao-territorial-brasileira.html?=&t=downloads
 [2] http://www2.datasus.gov.br/DATASUS/index.php?area=060206

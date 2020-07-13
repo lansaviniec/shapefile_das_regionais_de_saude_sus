@@ -45,5 +45,5 @@ Dra. Alexsandra Bezerra da Rocha (UFCG - Campus Cajazeiras)
 
 ### Como citar esses dados:
 
-SAVINIEC, Landir; ROCHA, Alexsandra Bezerra da. Shape das Regiões de Saúde do Brasil. 13 de jul. de 2020. Disponível em: <https://github.com/lansaviniec/shapefile_das_regionais_de_saude_sus>
+SAVINIEC, Landir; ROCHA, Alexsandra Bezerra da. Shape das Regiões de Saúde do Brasil. 13 de jul. de 2020. Disponível em: https://github.com/lansaviniec/shapefile_das_regionais_de_saude_sus
 

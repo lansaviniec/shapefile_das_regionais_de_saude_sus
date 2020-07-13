@@ -2,7 +2,7 @@
 
 O território brasileiro possui representações cartográficas em vários níveis: regiões, estados, municípios, etc. Sendo o município a unidade territorial mínima. Para facilitar a administração do Sistema Único de Saúde (SUS), o Ministério da Saúde instituiu a divisão do território brasileiro em Regionais de Saúde. As Regionais de Saúde são espaços geográficos constituídos por agrupamentos de municípios, que visam facilitar o planejamento, a execução e a disseminação dos serviços de saúde entre os municípios. Ao todo, os 5570 municípios brasileiros são agrupados em 450 Regionais de Saúde.
 
-Neste repositório, disponibilizo um arquivo CSV contento a distribuição territorial brasileira e dois shapefiles contendo o mapeamento das Regionais de Saúde. Os arquivos são baseados em dados do IBGE e do SUS.
+Neste repositório, disponibilizamos um arquivo CSV contento a distribuição territorial brasileira e dois shapefiles contendo o mapeamento das Regionais de Saúde. Os arquivos são baseados em dados do IBGE e do SUS.
 
 
 ### Conteúdo do repositório

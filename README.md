@@ -7,7 +7,7 @@ Neste repositório, disponibilizo um arquivo CSV contento a distribuição terri
 
 # Conteúdo do repositório
 
-Arquivo DTB.csv: Contém a distribuição territorial brasileira (2019), mostrando o relacionamento entre Regiões, Estados, Regionais de Saúde, e Municípios. Os dados foram extraídos do IBGE [1] e do DATASUS [2].
+Arquivo DTB.csv: Contém a distribuição territorial brasileira (2019), mostrando o relacionamento entre Regiões, Estados, Regionais de Saúde, e Municípios. Os dados foram extraídos do IBGE [1] e do DATASUS [2]. Obs: a geocodificação apresentada neste arquivo segue os códigos do IBGE. O campo "municipio_id_sdv" é o código do município sem o dígito verificador. Algumas bases do DATASUS usam esse código ao invés do código completo.
 
 Arquivo br_regionais.zip: Contém o shapefile das Regionais de Saúde geradas a partir do shapefile de Municípios (2019) disponibilizado pelo IBGE [3]. Os polígonos deste shapefile representam fielmente os contornos dos municípios descritos na malha 2019 do IBGE. Este arquivo é demasiado grande em quantidade de MegaBytes, aproximadamente 75 MB. Faça o download em [4]. 
  
